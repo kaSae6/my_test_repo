@@ -18,7 +18,7 @@ july_df = weather_df[weather_df['Datum'].dt.month == 7]
 
 july_avg_temp = round(july_df['Temperatur'].mean(), 1)
 
-print(f"The average overall temperature is: {avg_temp}")
+print(f"The average July temperature is: {july_avg_temp}")
 
 
 ################### july and may significant diff?
